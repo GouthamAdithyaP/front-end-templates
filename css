@@ -1,0 +1,489 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+h1, h2, h3 {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #ff6600;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #ff5500;
+}
+
+header {
+    background-color: #fff;
+    padding: 20px 0;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    float: left;
+}
+
+.logo img {
+    height: 40px;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+nav a {
+    color: #333;
+    text-decoration: none;
+}
+
+.hero {
+    background-image: url("hero-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 48px;
+    color: #fff;
+}
+
+.hero h2 {
+    font-size: 24px;
+    color: #ff6600;
+    margin-bottom: 30px;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.features {
+    padding: 50px 0;
+}
+
+.feature {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.feature img {
+    width: 60px;
+    margin-bottom: 20px;
+}
+
+.stats {
+    background-color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.stats h2 {
+    margin-bottom: 30px;
+}
+
+.stat {
+    display: inline-block;
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin: 0 10px 20px 10px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.stat p {
+    margin-bottom: 5px;
+}
+
+.testimonials {
+    background-color: #f8f8f8;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.testimonial {
+    background-color: #fff;
+    padding: 20px;
+    margin: 0 auto 20px auto;
+    max-width: 600px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: 20px auto;
+    display: block;
+}
+
+.services {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.service {
+    display: inline-block;
+    background-color: #fff;
+    padding: 20px;
+    margin: 0 10px 20px 10px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.service img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.customers {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.customer {
+    display: inline-block;
+    margin: 0 10px 20px 10px;
+}
+
+.customer img {
+    width: 100px;
+    height: 100px;
+}
+
+.pricing {
+    background-color: #f8f8f8;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.plan {
+    display: inline-block;
+    background-color: #fff;
+    padding: 20px;
+    margin: 0 10px 20px 10px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.plan h3 {
+    margin-bottom: 10px;
+}
+
+.plan p {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.plan ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.plan li {
+    margin-bottom: 5px;
+}
+
+.cta {
+    background-color: #333;
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.cta-content {
+    display: inline-block;
+    margin: 0 20px;
+    text-align: left;
+}
+
+.cta-button {
+    display: inline-block;
+    margin: 0 20px;
+    text-align: right;
+}
+
+footer {
+    background-color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.footer-col {
+    display: inline-block;
+    margin: 0 10px 20px 10px;
+}
+
+.footer-col ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-col li {
+    margin-bottom: 5px;
+}
+
+.footer-col a {
+    color: #333;
+    text-decoration: none;
+}
+
+.copyright {
+    background-color: #f0f0f0;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.copyright p {
+    margin-bottom: 5px;
+}
+
+.copyright ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.copyright li {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.copyright img {
+    width: 20px;
+    height: 20px;
+}
+
+.bottom-links {
+    background-color: #f8f8f8;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.bottom-links ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.bottom-links li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.bottom-links a {
+    color: #333;
+    text-decoration: none;
+}
+
+.features {
+    padding: 50px 0;
+}
+
+.feature-container {
+    text-align: center;
+}
+
+.feature {
+    display: inline-block;
+    width: 30%;
+    margin: 0 10px;
+    vertical-align: top;
+}
+
+.feature img {
+    width: 60px;
+    margin-bottom: 20px;
+}
+
+.orange-text {
+    color: #ff6600;
+}
+
+.service {
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.package {
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.hero h2 {
+    color: #ff6600;
+}
+
+.btn {
+    border-radius: 10px;
+}
+
+.hero .buttons .btn:first-child {
+    background-color: #fff;
+    color: #ff6600;
+}
+
+.feature .btn {
+    background-color: #fff;
+    color: #ff6600;
+}
+
+  
+  .container {
+    text-align: center;
+  }
+
+
+
+.rounded-image {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+.testimonials {
+    background-color: #333;
+    padding: 20px;
+}
+
+/* Header styles */
+header {
+    background-image: url('https://thumbs.dreamstime.com/b/beach-palm-trees-painting-showcasing-scene-tall-swaying-breeze-under-sunny-sky-ai-generative-322807632.jpg?w=992');
+    color: #fff;
+    padding: 20px 0;
+    background-size: cover;
+}
+
+nav {
+    background-color: transparent;
+    padding: 15px 0;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 50px;
+    color: #ff6600;
+    font-weight: 800;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #f8f7f6;
+    text-decoration: none;
+    font-weight: 800;
+    padding: 10px;
+}
+
+nav ul li a:hover {
+    color: #ff6600;
+}
+
+.hero-section {
+    text-align: center;
+    padding: 80px 20px;
+    color: #fff;
+}
+
+.hero-heading {
+    font-size: 2.5em;
+    margin: 0.5em 0;
+}
+
+.highlighted-text {
+    color: #ff6600;
+}
+
+.hero-buttons {
+    margin-top: 20px;
+}
+
+.hero-button1 {
+    background-color: #fff;
+    color: #ff6600;
+    border: none;
+    padding: 15px 30px;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 1em;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.hero-button2 {
+    background-color: #ff6600;
+    color: #fbf9f8;
+    border: none;
+    padding: 15px 30px;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 1em;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.hero-button:hover {
+    color: #fff;
+    background-color: #cc5200;
+}
